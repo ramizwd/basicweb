@@ -6,8 +6,12 @@
   "scripts": {
     "start": "nodemon script"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ramizwd/basicweb.git"
+    },
+  "author": "Ramiz W",
+  "license": "GNU-2",
   "dependencies": {
     "lodash": "^4.17.21"
   }
