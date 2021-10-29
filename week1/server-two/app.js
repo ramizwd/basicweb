@@ -7,6 +7,10 @@ const port = 3000;
 app.use(express.static('public'));
 app.set('view engine', 'pug');
 
+app.get('/', (req, res) => {
+    res.render('index');
+});
+
 app.get('/catinfo', (req, res) => {
     const cat = {
         name: 'Frank',
@@ -16,9 +20,6 @@ app.get('/catinfo', (req, res) => {
     res.json(cat);
 });
 
-app.get('/', (req, res) => {
-    res.render('index');
-});
 
 app.listen(port, () => {
     console.log(`App listening at http://localhost:${port}`);
