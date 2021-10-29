@@ -1,1 +1,1 @@
-First week assignments (Node.js & Express).
+Basic Concepts of Web Technology (backend) course assignments.
