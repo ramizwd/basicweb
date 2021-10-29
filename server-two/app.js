@@ -7,10 +7,6 @@ const port = 3000;
 app.use(express.static('public'));
 app.set('view engine', 'pug');
 
-// app.get('/', (req, res) => {
-//     res.send("Hello World!");
-// });
-
 app.get('/catinfo', (req, res) => {
     const cat = {
         name: 'Frank',
